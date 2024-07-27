@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ li_dev7 ]
   pull_request:
-    branches: [ master ]
+    branches: [ li_dev7 ]
 
 env:
   DEVELOPER_DIR: /Applications/Xcode.app/Contents/Developer
